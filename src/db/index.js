@@ -3,8 +3,7 @@ import 'firebase/firestore'
 
 
 export const firebaseConfig = {
-    // apiKey: process.env.VUE_APP_FIREBASE_KEY,
-    apiKey: 'AIzaSyD0tuQqD3cS5VmlSDedVPQV2isR-i3D6ww',
+    apiKey: process.env.VUE_APP_FIREBASE,
     authDomain: 'product-crud-vue-781e8.firebaseapp.com',
     databaseURL: 'https://product-crud-vue-781e8.firebaseio.com',
     projectId: 'product-crud-vue-781e8',
