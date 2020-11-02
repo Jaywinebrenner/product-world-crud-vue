@@ -57,7 +57,7 @@
 
   <div class="bottomCard" v-else>
     <router-link
-    to="{
+    :to="{
       name: 'ProductPage',
       params: { product_id: product.product_id }
     }"
